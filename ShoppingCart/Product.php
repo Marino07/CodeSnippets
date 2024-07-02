@@ -87,9 +87,10 @@ class Product
         $this->availableQuantity = $availableQuantity;
     }
     public function addToCart(Cart $cart,int $quantity){
+        $cart->addProduct($this,$quantity);
 
     }
     public function removeFromCart(Cart $cart){
-
+        return $cart->removeProduct($this);
     }
 }
