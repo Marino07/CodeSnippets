@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerija Slika</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Galerija Slika</h1>
+
+    <!-- Filtri za kategorije slika -->
+    <div class="filters">
+        <button class="filter-btn" data-category="all">Sve</button>
+        <button class="filter-btn" data-category="nature">Priroda</button>
+        <button class="filter-btn" data-category="architecture">Arhitektura</button>
+        <button class="filter-btn" data-category="animals">Životinje</button>
+    </div>
+
+    <!-- Galerija slika -->
+    <div class="gallery">
+        <div class="gallery-item" data-category="nature">
+            <img src="images/image.jpg" alt="Priroda 1">
+            <div class="gallery-info">
+                <h2>Priroda 1</h2>
+                <p>Kratki opis prirode.</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="architecture">
+            <img src="images/un2.png" alt="Arhitektura 1">
+            <div class="gallery-info">
+                <h2>Arhitektura 1</h2>
+                <p>Opis zgrade.</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="animals">
+            <img src="images/edit forma.png" alt="Životinja 1">
+            <div class="gallery-info">
+                <h2>Životinja 1</h2>
+                <p>Opis životinje.</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="nature">
+            <img src="images/image.jpg" alt="Priroda 2">
+            <div class="gallery-info">
+                <h2>Priroda 2</h2>
+                <p>Opis prirode 2.</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="architecture">
+            <img src="images/un2.png" alt="Arhitektura 2">
+            <div class="gallery-info">
+                <h2>Arhitektura 2</h2>
+                <p>Opis zgrade 2.</p>
+            </div>
+        </div>
+        <div class="gallery-item" data-category="animals">
+            <img src="images/edit forma.png" alt="Životinja 2">
+            <div class="gallery-info">
+                <h2>Životinja 2</h2>
+                <p>Opis životinje 2.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="galery.js"></script>
+</body>
+</html>
